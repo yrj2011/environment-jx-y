@@ -1,0 +1,9 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jx-y
+pipelineConfig:
+  agent: {}
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jx-y
+  pipelines: {}
